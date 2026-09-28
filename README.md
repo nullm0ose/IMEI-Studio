@@ -4,13 +4,17 @@ A fast, reliable, Mac-first desktop application for repair technicians that conv
 
 Built specifically for repair technicians to eliminate the pain of messy online lookup sites, inconsistent naming, and having to disassemble devices just to identify the model.
 
+![image](https://github.com/nullm0ose/IMEI-Studio/blob/main/scr1.png?raw=true)
+
+![image](https://github.com/nullm0ose/IMEI-Studio/blob/main/scr3.png?raw=true)
+
+
 ## Why This Tool Exists
 
 - Most modern phones no longer print the model number on the chassis.
 - Existing free lookup websites have become unusable (heavy ads, broken results, freezing).
 - Technicians need **consistent, trustworthy** model names to order correct parts and give accurate quotes.
 - App targets ≥95% accuracy with normalized, human-readable output for every major manufacturer.
-
 
 ## Core Features
 
@@ -25,7 +29,7 @@ Built specifically for repair technicians to eliminate the pain of messy online 
 - 🖼️ **Cached Device Media:** Pulls device imagery from GSMArena with smart local caching to prevent interface bloat or repetitive network fetches.
 - ⚡ **Automated Data Sync:** Automatic TAC database updates that seamlessly re-apply your custom normalization rules on every new import.
 - ✈️ **Fully Offline Architecture:** Functions completely disconnected from the web after your initial setup and database installation.
-- 🍏 **Native Apple Silicon UI:** Specifically optimized for macOS, utilizing standard Apple native windows and sandbox-safe system storage paths.
+- 🍏 **Native MacOS Universal App (Runs on Intel & Apple Silicon):** Specifically optimized for macOS, utilizing standard Apple native windows and sandbox-safe system storage paths.
 
 ## Roadmap & Milestones
 
@@ -44,7 +48,7 @@ Current status: **Phase 5: Beta Preview Build Completed & Shipped for Public Use
 **Milestone 3:** Images load reliably via GSMArena + cache. Database updates automatically keep normalized names clean. App consistently hits 95–98% accuracy with professional formatting.  
 
 ✅ **Phase 4: Hardening, Testing & Release**  
-**Milestone 4:** Fully tested, signed, and reliable internal tool ready for daily use by users. Reliability ≥95–98% on real repair traffic.  
+**Milestone 4:** Fully tested, ~~signed~~, and reliable internal tool ready for daily use. Reliability ≥95–98% on real user use.  
 
 **Phase 5: Post-MVP (Features Planned For Future Development)**  
 - Batch IMEI lookup  
@@ -52,3 +56,4 @@ Current status: **Phase 5: Beta Preview Build Completed & Shipped for Public Use
 - Additional image sources and better code-name resolution  
 - In app auto-updater for the app itself  
 - Export full bench report with history
+- Windows Native App 
